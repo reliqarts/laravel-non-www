@@ -16,7 +16,7 @@ Middleware for Laravel 5, to redirect WWW to non-WWW
 Install via composer:
 
 ```php
-composer install reliqarts/laravel-non-www
+composer require reliqarts/laravel-non-www
 ```
 
 Add service provider:
