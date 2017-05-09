@@ -1,0 +1,31 @@
+{
+	"name": "reliqarts/laravel-non-www",
+	"description": "Tiny Laravel 5 middleware to redirect www requests to non-www counterparts.",
+	"keywords": ["laravel", "non", "www", "redirect"],
+	"type": "package",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "ReliQ",
+			"email": "reliq@reliqarts.com"
+		}
+	],
+	"require": {
+		"php": ">=5.6.4",
+		"illuminate/support": "5.*"
+	},
+	"require-dev": {
+		"fzaninotto/faker": "~1.4",
+		"mockery/mockery": "0.9.*",
+		"symfony/dom-crawler": "~3.0",
+		"symfony/css-selector": "~3.0"
+	},
+	"autoload": {
+		"classmap": [
+			"database"
+		],
+		"psr-4": {
+			"ReliQArts\\NonWWW\\": "src/"
+		}
+	}
+}
