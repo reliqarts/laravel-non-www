@@ -18,5 +18,12 @@
 		"psr-4": {
 			"ReliQArts\\NonWWW\\": "src/"
 		}
-	}
+	},
+	"extra": {
+        "laravel": {
+            "providers": [
+                "ReliQArts\\NonWWW\\NonWWWServiceProvider"
+            ]
+        }
+    }
 }
