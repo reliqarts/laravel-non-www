@@ -31,7 +31,7 @@ Use middleware in Kernel. eg.
 'web' => [
     // ...
 
-    \NonWWW\Http\Middleware\NonWWW::class,
+    \ReliQArts\NonWWW\Http\Middleware\NonWWW::class,
 
     // ...
 ],
