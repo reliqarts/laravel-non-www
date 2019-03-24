@@ -1,11 +1,11 @@
 <?php
 
-namespace ReliQArts\NonWWW;
+namespace ReliqArts\NonWWW;
 
-use Illuminate\Support\ServiceProvider;
-use ReliQArts\NonWWW\Http\Middleware\NonWWW;
+use Illuminate\Support\ServiceProvider as BaseServiceProvider;
+use ReliqArts\NonWWW\Http\Middleware\NonWWW;
 
-class NonWWWServiceProvider extends ServiceProvider
+class ServiceProvider extends BaseServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.
@@ -16,8 +16,6 @@ class NonWWWServiceProvider extends ServiceProvider
 
     /**
      * Bootstrap the application events.
-     *
-     * @return void
      */
     public function boot()
     {
@@ -26,8 +24,6 @@ class NonWWWServiceProvider extends ServiceProvider
 
     /**
      * Register the service provider.
-     *
-     * @return void
      */
     public function register()
     {
