@@ -22,7 +22,7 @@ composer require reliqarts/laravel-non-www
 Add service provider:
 
 ```php
-ReliQArts\NonWWW\NonWWWServiceProvider::class,
+ReliqArts\NonWWW\NonWWWServiceProvider::class,
 ```
 
 Use middleware in Kernel. eg.
@@ -31,7 +31,7 @@ Use middleware in Kernel. eg.
 'web' => [
     // ...
 
-    \ReliQArts\NonWWW\Http\Middleware\NonWWW::class,
+    \ReliqArts\NonWWW\Http\Middleware\NonWWW::class,
 
     // ...
 ],

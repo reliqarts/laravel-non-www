@@ -6,7 +6,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "ReliQ",
+            "name": "Reliq",
             "email": "reliq@reliqarts.com"
         }
     ],
@@ -17,12 +17,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ReliQArts\\NonWWW\\": "src/"
+            "ReliqArts\\NonWWW\\": "src/"
         }
     },
     "extra": {
         "laravel": {
-            "providers": ["ReliQArts\\NonWWW\\NonWWWServiceProvider"]
+            "providers": ["ReliqArts\\NonWWW\\ServiceProvider"]
         }
     }
 }
