@@ -19,12 +19,6 @@ Install via composer:
 composer require reliqarts/laravel-non-www
 ```
 
-Add service provider:
-
-```php
-ReliqArts\NonWWW\NonWWWServiceProvider::class,
-```
-
 Use middleware in Kernel. eg.
 
 ```php
