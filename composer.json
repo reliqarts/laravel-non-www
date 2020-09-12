@@ -12,8 +12,12 @@
     ],
     "require": {
         "php": "^7.2",
-        "illuminate/support": "^6.0|^7.0",
+        "illuminate/support": "^6.0|^7.0|^8.0",
         "fideloper/proxy": "^4.0"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
     },
     "autoload": {
         "psr-4": {

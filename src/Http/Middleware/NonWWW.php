@@ -17,7 +17,7 @@ class NonWWW
 {
     public function handle($request, Closure $next)
     {
-        if (substr($request->header('host'), 0, 4) === 'www.') {
+        if (strpos($request->header('host'), 'www.') === 0) {
             $request->setTrustedProxies([$request->getClientIp()], config('trustedproxy.headers'));
             $request->headers->set('host', parse_url(config('app.url'), PHP_URL_HOST));
 
