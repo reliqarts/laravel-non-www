@@ -1,5 +1,5 @@
 ### Deprecation Notice
-This package has been discontinued and its features absorbed by [laravel-common](http://https://github.com/reliqarts/laravel-common) as of version [5.5.0](https://github.com/reliqarts/laravel-common/releases/tag/v5.5.0) of that package.
+This package has been discontinued and its features absorbed by [laravel-common](https://github.com/reliqarts/laravel-common) as of version [5.5.0](https://github.com/reliqarts/laravel-common/releases/tag/v5.5.0) of that package.
 
 ---
 
